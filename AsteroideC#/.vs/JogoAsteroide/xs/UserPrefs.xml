@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{724CFFC5-0923-4838-AD69-B528A9170684}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WindowsFormsApp3/Form1.Designer.cs">
+    <Files>
+      <File FileName="WindowsFormsApp3/Form1.cs" Line="64" Column="27" />
+      <File FileName="WindowsFormsApp3/Program.cs" Line="1" Column="1" />
+      <File FileName="WindowsFormsApp3/Util.cs" Line="1" Column="1" />
+      <File FileName="WindowsFormsApp3/Asteroid.cs" Line="1" Column="1" />
+      <File FileName="WindowsFormsApp3/Form1.Designer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Asteroide PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

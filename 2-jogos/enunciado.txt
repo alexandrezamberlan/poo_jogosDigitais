@@ -1,0 +1,41 @@
+Tendo como base o exercício POO PARA JOGOS, modele e implemente um sistema de mídias 
+(música ou imagem) para ser utilizado em Jogos (ou engines como Unity).
+
+Toda mídia, independente de música ou imagem, possui um identificador para controle na 
+base de dados. Esse identificador deve ser único para cada mídia. Toda mídia deve ter um nome 
+de arquivo, bem como o endereço no computador (disco e pasta).
+
+Toda vez que uma mídia é cadastrada, deve haver um criador (direito autoral), ou seja, o nome 
+completo do artista ou compositor (música ou imagem) responsável pela mídia.
+
+No universo de música, é necessário armazenar o tipo de arquivo gerado para a música 
+(a fim de identificar os codecs). O mesmo acontece para imagem.  Uma música armazenada também 
+precisa ser categorizada (comédia, suspense, terror, romance, …)
+
+No universo de imagem, deve-se armazenar as dimensões da imagem (tamanho pixels linha x coluna). 
+Também no universo da imagem, deve haver um tipo (atributo) que categorize a imagem 
+(item de cenário; animal; pessoa; cenário; ….).
+
+Em relação ao jogo, ao cadastrar um jogo no sistema (em produção), deve-se guardar nome do jogo, 
+responsável técnico, identificador do jogo que o diferencie dos demais jogos. Além disso, 
+associar mídias a serem utilizadas em fases do jogo. Aqui, simplesmente é um sistema de controle 
+de direito autoral de mídias em jogos. Ou seja, um jogo pode ter nenhuma ou várias mídias. 
+E uma mídia pode aparecer em nenhum e vários jogos.
+
+Assim, vamos trabalhar em duas etapas:
+
+Primeira etapa: Astah ou um editor de sua preferência
+modelar classes, atributos e métodos
+definir os relacionamentos entre classes
+definir os tipos de classes (abstratas ou comuns)
+
+
+Segunda etapa: Visual Studio
+implementar cada classe criada no Astah
+implementar uma classe Principal em que um usuário possa (forma gráfica):
+cadastrar, consultar e remover mídias
+dados completos de música e/ou imagens
+cadastrar, consultar e remover jogos
+dados completos de jogos
+ OBS.: A implementação em C# deve ser realizada em memória com uso de classes de apoio: List (para armazenar mídias e jogos); Frame; Button; TextBox, …
+

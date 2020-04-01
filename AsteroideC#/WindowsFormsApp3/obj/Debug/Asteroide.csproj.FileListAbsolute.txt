@@ -1,0 +1,32 @@
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.exe.config
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.exe
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.pdb
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/obj/Debug/Asteroide.csprojAssemblyReference.cache
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.Form1.resources
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.Properties.Resources.resources
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/obj/Debug/Asteroide.csproj.GenerateResource.cache
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/obj/Debug/Asteroide.csproj.CoreCompileInputs.cache
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.exe
+C:/Users/usrlab15/source/repos/WindowsFormsApp3/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.pdb
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.Form1.resources
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.Properties.Resources.resources
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/obj/Debug/Asteroide.csproj.GenerateResource.cache
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/obj/Debug/Asteroide.csproj.CoreCompileInputs.cache
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.exe.config
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.exe
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.pdb
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.exe
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.pdb
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.Form2.resources
+C:/Users/usrlab15/Downloads/alexandre/AsteroideC#/WindowsFormsApp3/obj/Debug/Asteroide.csprojAssemblyReference.cache
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.exe.config
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.exe
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/bin/Debug/WindowsFormsApp3.pdb
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/obj/Debug/Asteroide.csprojAssemblyReference.cache
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.Form1.resources
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.Form2.resources
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.Properties.Resources.resources
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/obj/Debug/Asteroide.csproj.GenerateResource.cache
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/obj/Debug/Asteroide.csproj.CoreCompileInputs.cache
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.exe
+/Users/alexandrezamberlan/Google Drive/codigos/progC#/AsteroideC#/WindowsFormsApp3/obj/Debug/WindowsFormsApp3.pdb
