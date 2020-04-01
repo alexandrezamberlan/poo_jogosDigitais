@@ -1,6 +1,6 @@
 public class Audio : Midia
 {
-	public String codec;
+	public string codec;
 
 	/// tempo em milissegundos
 	public int tempo;

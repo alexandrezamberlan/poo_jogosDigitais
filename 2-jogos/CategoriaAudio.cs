@@ -2,7 +2,7 @@ public class CategoriaAudio
 {
 	public int identificador;
 
-	public String descricao;
+	public string descricao;
 
 	//método construtor
 

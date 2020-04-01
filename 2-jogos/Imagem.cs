@@ -1,10 +1,10 @@
 public class Imagem : Midia
 {
-	public String codecImagem;
+	public string codecImagem;
 
-	public String dimensoes;
+	public string dimensoes;
 
-	public String tipoImagem;
+	public string tipoImagem;
 
 	//método construtor
 

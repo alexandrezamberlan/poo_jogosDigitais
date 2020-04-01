@@ -2,9 +2,9 @@ public class Jogo
 {
 	public int identificador;
 
-	public String nome;
+	public string nome;
 
-	public String responsavelTecnico;
+	public string responsavelTecnico;
 
 	private Midia[] midia;
 

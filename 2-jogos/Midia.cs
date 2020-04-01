@@ -2,9 +2,9 @@ public abstract class Midia //classe de molde
 {
 	public int identificador;
 
-	public String endereco;
+	public string endereco;
 
-	public String nomeArquivo;
+	public string nomeArquivo;
 
 	public Autor autor;
 
