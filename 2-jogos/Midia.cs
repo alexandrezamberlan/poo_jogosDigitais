@@ -1,4 +1,4 @@
-public abstract class Midia
+public abstract class Midia //classe de molde
 {
 	public int identificador;
 
@@ -7,6 +7,8 @@ public abstract class Midia
 	public String nomeArquivo;
 
 	public Autor autor;
+
+	//método construtor
 
 }
 

@@ -7,5 +7,7 @@ public class Audio : Midia
 
 	public CategoriaAudio categoriaAudio;
 
+	//método construtor
+
 }
 

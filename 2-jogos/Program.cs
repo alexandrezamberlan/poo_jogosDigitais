@@ -41,7 +41,14 @@ namespace _1_jogos
                 listaAutores.Add(new Autor(matricula,nome));
                 exibirLista(listaAutores);
             } else {
-                Console.WriteLine("Matrícula já existe. Escolha outra");
+                Console.WriteLine("Matrícula já existe. Quer excluir [s/n]?");
+                char op = Console.ReadKey();
+                if (op == 's' || op == 'S') {
+                    //excluir
+                    
+
+                }
+
             }
         }
 

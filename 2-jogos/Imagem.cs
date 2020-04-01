@@ -6,5 +6,7 @@ public class Imagem : Midia
 
 	public String tipoImagem;
 
+	//método construtor
+
 }
 

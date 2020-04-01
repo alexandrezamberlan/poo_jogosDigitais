@@ -4,5 +4,7 @@ public class CategoriaAudio
 
 	public String descricao;
 
+	//método construtor
+
 }
 
