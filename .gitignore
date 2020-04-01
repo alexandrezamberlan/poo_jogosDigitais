@@ -1,0 +1,8 @@
+*.exe
+env
+bin
+obj
+.env
+.idea
+.DS_Store
+.vscode
