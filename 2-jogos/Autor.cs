@@ -4,5 +4,10 @@ public class Autor
 
 	public String nome;
 
+	public Autor(int identificador, string nome){
+		this.identificador = identificador;
+		this.nome = nome;
+	}
+
 }
 

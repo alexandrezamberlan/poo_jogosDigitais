@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexandrezamberlan/codigos/progC#/2-jogos/1-jogos.csproj",
+      "projectUniqueName": "/Users/alexandrezamberlan/codigos/progC#/poo_jogosDigitais/2-jogos/1-jogos.csproj",
       "projectName": "1-jogos",
-      "projectPath": "/Users/alexandrezamberlan/codigos/progC#/2-jogos/1-jogos.csproj",
+      "projectPath": "/Users/alexandrezamberlan/codigos/progC#/poo_jogosDigitais/2-jogos/1-jogos.csproj",
       "packagesPath": "/Users/alexandrezamberlan/.nuget/packages/",
-      "outputPath": "/Users/alexandrezamberlan/codigos/progC#/2-jogos/obj/",
+      "outputPath": "/Users/alexandrezamberlan/codigos/progC#/poo_jogosDigitais/2-jogos/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
