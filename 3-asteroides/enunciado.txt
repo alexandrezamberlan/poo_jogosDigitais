@@ -1,0 +1,35 @@
+Tendo como base o exercício POO PARA JOGOS, modele o Jogo dos Asteróides.
+
+O jogo inicia depois que o usuário definir quantos ASTERÓIDES ele deseja combater. 
+O sistema deve gerar essa quantidade de asteróides, com suas posições (Ponto x,y), 
+seus tamanhos e suas velocidades geradas randomicamente (aleatórias). 
+Todo asteróide gerado deve ser distribuído na tela a partir da sua localização 
+(Ponto x,y do plano cartesiano). E cada asteróide pode mover para baixo, de acordo
+com a velocidade sorteada.
+
+Para auxiliar o jogador, 3 barreiras serão posicionadas na tela. Cada barreira também
+estará em um Ponto x,y do plano cartesiano, terá um tamanho e possuirá dois movimentos
+(controlados pelo jogador): ir para esquerda e ir para direita. O jogador poderá pular
+de uma barreira para outra com a tecla TAB.
+
+O objetivo do jogador é bloquear o maior número de asteróides. O jogo termina quando
+algum asteróide passar a última barreira e atingir a base da tela.
+
+Assim, vamos trabalhar em duas etapas:
+
+Primeira etapa: Astah ou um editor de sua preferência
+modelar classes, atributos e métodos
+definir os relacionamentos entre classes
+definir os tipos de classes (abstratas ou comuns)
+
+
+Segunda etapa: Visual Studio
+implementar cada classe criada no Astah
+implementar uma classe Principal em que um usuário possa (forma gráfica):
+informar a quantidade de asteróides
+visualizar as informações de cada asteróide
+visualizar as informações de cada barreira 
+
+OBS.: A implementação em C# deve ser realizada em memória com uso de 
+classes de apoio: List (para armazenar asteróides e barreiras)
+
