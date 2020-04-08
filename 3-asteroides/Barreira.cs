@@ -34,6 +34,7 @@ class Barreira : Objeto
             case 9: this.posX = this.posX + 90;
                     break;            
             case 10: this.posX = this.posX + 100;
+                    break;
         }
     }
 
@@ -60,6 +61,7 @@ class Barreira : Objeto
             case 9: this.posX = this.posX - 90;
                     break;            
             case 10: this.posX = this.posX - 100;
+                    break;
         }
     }
 }

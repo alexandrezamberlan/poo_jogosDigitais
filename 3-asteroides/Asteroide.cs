@@ -33,6 +33,7 @@ class Asteroide : Objeto
             case 9: this.posY = this.posY + 90;
                     break;            
             case 10: this.posY = this.posY + 100;
+                    break;
         }
     }
 }

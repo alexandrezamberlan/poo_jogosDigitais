@@ -18,12 +18,15 @@ namespace _1_jogos
 
         static void exibeListaAsteroides()
         {
+            Console.WriteLine("Lista de asteroides gerados (x,y,altura,largura,velocidade):");
             for (int i = 0; i < listaAsteroides.Count; i++)
             {
-                Console.WriteLine(listaAsteroides[i].posX + ","+ listaAsteroides[i].posY + ","+ 
-                                  listaAsteroides[i].altura + ","+listaAsteroides[i].largura + ","+ 
-                                  listaAsteroides[i].velocidade );
-                Console.WriteLine("========================");
+                Console.WriteLine("Asteroide " + (i+1) + ": " + listaAsteroides[i].posX + ","+ 
+                                  listaAsteroides[i].posY + ","+ 
+                                  listaAsteroides[i].altura + ","+
+                                  listaAsteroides[i].largura + ","+ 
+                                  listaAsteroides[i].velocidade);
+                Console.WriteLine("============================");
             }
         }
         static void Main(string[] args)
@@ -31,7 +34,7 @@ namespace _1_jogos
             Console.WriteLine("Jogo dos Asteróides");
             //definir quantos asteróides o sistema irá trabalhar
             int quantidadeAsteroides;
-            Console.Write("Quantos asteróides deseja?");
+            Console.Write("Quantos asteróides deseja?  ");
             quantidadeAsteroides = Int32.Parse(Console.ReadLine());
             
             //gerar e armazenar asteróides em lista
