@@ -1,0 +1,35 @@
+ORIENTAÇÃO A OBJETOS
+    - ideia de terceirização de serviços
+    - aspectos estruturais (atributos) + aspectos funcionais (métodos)
+    
+    Conceitos básicos:
+        - Classe -> estrutura que garante tipos
+            -> atributos -> propriedades
+            -> métodos   -> funcionalidades
+                -> método construtor -> aloca memória para um obj
+                -> método get -> captura valor(es) de atributo(s)
+                -> método set -> insere valor(es)
+
+	Classe é uma categoria que contém atributos e métodos
+		-> atributos e métodos da classe (static)
+		-> atributos e métodos do objeto (instanciação ou new)
+            
+        - Objeto -> um elemento ou instância de uma Classe
+		-> em geral, são eles que 'fazem' os serviços solicitados
+
+        
+	- Visibilidade (public, private, protected)
+        
+        
+		
+	-> Polimorfismo -> um mesmo métodos 'funcionando' de  
+	                   várias formas
+					   
+	-> Sobreescrita (Override) -> classe filha sobreescrevendo um
+	                              método do pai
+								  
+								  
+								
+	Vocabulário
+	-> this
+	-> base -> faz relação com a classe PAI
