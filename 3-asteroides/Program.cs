@@ -45,11 +45,13 @@ namespace _1_jogos
 
             //gerar e armazenar barreiras em lista
 
-            
+
 
             //exibir os dados de cada barreira (x,y,tamanho)
+
+    
+            
+     
         }
-
-
     }
 }

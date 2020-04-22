@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{CB062BD9-B52A-4045-85E6-F0353EC6519E}|Default">
+  <MonoDevelop.Ide.ItemProperties.4-jogoDaForca PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="4-jogoDaForca" expanded="True">
+            <Node name="4-jogoDaForca" expanded="True">
+              <Node name="Jogador.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

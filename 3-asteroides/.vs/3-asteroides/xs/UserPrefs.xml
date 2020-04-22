@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{CF37897A-7B08-4717-9C69-705485F277CD}|Default">
+  <MonoDevelop.Ide.ItemProperties.3-asteroides PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="52" Column="5" />
+      <File FileName="Pessoa.cs" Line="6" Column="28" />
+      <File FileName="Professor.cs" Line="12" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="3-asteroides" expanded="True">
+            <Node name="3-asteroides" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
