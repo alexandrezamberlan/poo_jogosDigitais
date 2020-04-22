@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _4_jogoDaForca
 {
@@ -26,7 +27,10 @@ namespace _4_jogoDaForca
                     case 1:
                         Console.WriteLine("Cadastro de palavras");
                         //informar nome da palavra e a categoria
-
+                        Apoio.carregarPalavras(listaPalavras);
+                        Apoio.mostrarPalavras(listaPalavras);
+                        
+                        Apoio.limparTela();
                         break;
                     case 2:
                         Console.WriteLine("Escolher categoria");
@@ -46,5 +50,11 @@ namespace _4_jogoDaForca
             Console.WriteLine("Jogo da Forca");
             menu();
         }
+
+        //variáveis globais de acesso a qualquer metodo
+
+        static List<Palavra> listaPalavras = new List<Palavra>();
+        static List<Jogador> listaJogadores = new List<Jogador>();
+
     }
 }
