@@ -103,12 +103,62 @@ namespace _5_TrataArquivos
             
         }
 
+        static void desafioProfessor()
+        {
+            /*
+             * Crie um arquivo texto (direto no bloco de notas) contendo nomes de jogadores (minúsculo e maiúsculo)
+             * Em seguida, faça um método que leia esse arquivo e converta todos os nomes para maiúsculo,
+             * atualizando o arquivo.
+             */
+
+            /*  nomes.txt - toUpper()
+                Pedro
+                carla
+                sofia
+                betina
+                bruno
+            */
+            List<String> frasesLidas = new List<string>();
+            String nomeArquivo;
+            Console.Write("Digite o nome do arquivo que deseja ler: ");
+            nomeArquivo = Console.ReadLine();
+
+            //abrir e ler o arquivo origem e jogar todo conteúdo numa lista ou numa variável
+            StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8); //abre o arquivo para leitura
+
+            //converter para maiúsculo todas as palavras lidas para a lista ou variável
+            do
+            {
+                frasesLidas.Add(leitor.ReadLine().ToUpper());
+
+            } while (!leitor.EndOfStream);
+
+            //fechar o arquivo de origem
+            leitor.Close();
+
+            //abrir novamente o arquivo de origem agora para escrever (sobreescrever)
+            StreamWriter escritor = new StreamWriter(nomeArquivo); //abre o arquivo para escrita
+
+            //depositar/escrever o conteúdo da lista ou da variável no arquivo de origem reaberto
+            for (int i = 0; i < frasesLidas.Count; i++)
+            {
+                escritor.Write(frasesLidas[i]);
+                escritor.Flush();
+            }
+
+            //fechar o arquivo de origem
+            escritor.Close();
+
+
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Aplicativo para ler e escrever em arquivos texto");
             //escreveNoArquivo();
             //leArquivo();
-            leArquivoEmLista();
+            //leArquivoEmLista();
+            desafioProfessor();
         }
 
     }
@@ -134,3 +184,5 @@ namespace _5_TrataArquivos
  *      
  * 
  */
+
+    
