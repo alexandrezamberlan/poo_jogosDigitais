@@ -118,38 +118,46 @@ namespace _5_TrataArquivos
                 betina
                 bruno
             */
-            List<String> frasesLidas = new List<string>();
-            String nomeArquivo;
-            Console.Write("Digite o nome do arquivo que deseja ler: ");
-            nomeArquivo = Console.ReadLine();
-
-            //abrir e ler o arquivo origem e jogar todo conteúdo numa lista ou numa variável
-            StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8); //abre o arquivo para leitura
-
-            //converter para maiúsculo todas as palavras lidas para a lista ou variável
-            do
+            try
             {
-                frasesLidas.Add(leitor.ReadLine().ToUpper());
+                List<String> frasesLidas = new List<string>();
+                String nomeArquivo;
+                Console.Write("Digite o nome do arquivo que deseja ler: ");
+                nomeArquivo = Console.ReadLine();
 
-            } while (!leitor.EndOfStream);
+                //abrir e ler o arquivo origem e jogar todo conteúdo numa lista ou numa variável
+                StreamReader leitor = new StreamReader(nomeArquivo, Encoding.UTF8); //abre o arquivo para leitura
 
-            //fechar o arquivo de origem
-            leitor.Close();
+                //converter para maiúsculo todas as palavras lidas para a lista ou variável
+                do
+                {
+                    frasesLidas.Add(leitor.ReadLine().ToUpper());
 
-            //abrir novamente o arquivo de origem agora para escrever (sobreescrever)
-            StreamWriter escritor = new StreamWriter(nomeArquivo); //abre o arquivo para escrita
+                } while (!leitor.EndOfStream);
 
-            //depositar/escrever o conteúdo da lista ou da variável no arquivo de origem reaberto
-            for (int i = 0; i < frasesLidas.Count; i++)
-            {
-                escritor.Write(frasesLidas[i]);
-                escritor.Flush();
+                //fechar o arquivo de origem
+                leitor.Close();
+
+                //abrir novamente o arquivo de origem agora para escrever (sobreescrever)
+                StreamWriter escritor = new StreamWriter(nomeArquivo); //abre o arquivo para escrita
+
+                //depositar/escrever o conteúdo da lista ou da variável no arquivo de origem reaberto
+                for (int i = 0; i < frasesLidas.Count; i++)
+                {
+                    escritor.WriteLine(frasesLidas[i]);
+                    escritor.Flush();
+                }
+
+                //fechar o arquivo de origem
+                escritor.Close();
+
             }
-
-            //fechar o arquivo de origem
-            escritor.Close();
-
-
+            catch (IOException e)
+            {
+                Console.WriteLine("Problemas na escrita ou leitura do arquivo: " + e.Message);
+                desafioProfessor();
+            }
+            
         }
 
         static void Main(string[] args)
