@@ -1,15 +1,14 @@
-﻿<Properties StartupConfiguration="{CB062BD9-B52A-4045-85E6-F0353EC6519E}|Default">
-  <MonoDevelop.Ide.ItemProperties.4-jogoDaForca PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="4-jogoDaForca/Program.cs">
+﻿<Properties StartupConfiguration="{4E704DEA-839D-40A7-B7EC-71F1DCF410CB}|Default">
+  <MonoDevelop.Ide.ItemProperties.5-TrataArquivos FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="5-TrataArquivos/Program.cs">
     <Files>
-      <File FileName="4-jogoDaForca/Program.cs" Line="37" Column="49" />
-      <File FileName="4-jogoDaForca/Apoio.cs" Line="51" Column="62" />
+      <File FileName="5-TrataArquivos/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="4-jogoDaForca" expanded="True">
-            <Node name="4-jogoDaForca" expanded="True">
+          <Node name="5-TrataArquivos" expanded="True">
+            <Node name="5-TrataArquivos" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
