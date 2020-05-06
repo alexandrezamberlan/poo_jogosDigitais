@@ -16,7 +16,20 @@ namespace _6_extraiPartesString_Arquivo
             String nomeArquivo;
             Console.Write("Digite o nome do arquivo que deseja gravar: ");
             nomeArquivo = Console.ReadLine();
-            StreamWriter escritor = new StreamWriter(nomeArquivo);
+            
+
+            //se o arquivo existe, adicionar as novas expressões e suas categorias
+            //caso contrário, criá-lo
+            StreamWriter escritor;
+
+            if (!File.Exists(nomeArquivo))
+            {
+                escritor = new StreamWriter(nomeArquivo);
+            }
+            else
+            {
+                escritor = File.AppendText(nomeArquivo);
+            }
 
             do
             {
