@@ -89,10 +89,9 @@ namespace _5_TrataArquivos
 
                 for (int i = 0; i < frasesLidas.Count; i++)
                 {
-                    if (frasesLidas[i].Contains("fruta"))
-                    {
-                        Console.WriteLine(frasesLidas[i]);
-                    }
+                    
+                    Console.WriteLine(frasesLidas[i]);
+                    
                 }
             }
             catch (IOException e)
@@ -162,11 +161,13 @@ namespace _5_TrataArquivos
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Aplicativo para ler e escrever em arquivos texto");
+            //Console.WriteLine("Aplicativo para ler e escrever em arquivos texto");
             //escreveNoArquivo();
             //leArquivo();
             //leArquivoEmLista();
-            desafioProfessor();
+            //desafioProfessor();
+            Util.leArquivoEmLista();
+
         }
 
     }
