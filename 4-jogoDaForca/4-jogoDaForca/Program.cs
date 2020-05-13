@@ -74,18 +74,7 @@ namespace _4_jogoDaForca
                         {
                             Console.WriteLine("Jogo da forca para palavras da categoria: " + categoriaEmJogo);
                             string palavraSorteada = Util.sortearPalavra(listaPalavras,categoriaEmJogo);
-                            Console.Write("\n\nA palavra sorteada: ");
-
-                            for (int i = 0; i < palavraSorteada.Length; i++)
-                            {
-                                Console.Write("_ ");
-                            }
-                            Console.WriteLine("\n");
-
-                            //processo do jogo
-                            char caracter;
-
-
+                            int pontos = Util.jogar(palavraSorteada);
                         }
                         Util.limparTela();
                         break;

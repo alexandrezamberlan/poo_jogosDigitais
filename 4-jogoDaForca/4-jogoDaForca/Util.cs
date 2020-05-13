@@ -149,5 +149,48 @@ namespace _4_jogoDaForca
             System.Console.Clear();
 
         }
+
+        static public int jogar(string palavraSorteada)
+        {
+            int qtdErros = 0;
+            string letra;
+            string palavra = "";
+            limparTela();
+
+            for (int i = 0; i < palavraSorteada.Length; i++)
+            {
+                palavra = palavra + "0";
+            }
+
+            do
+            {
+                Console.WriteLine(palavraSorteada);
+                Console.Write("A palavra sorteada: " + palavra + "\n");
+                Console.Write("Quantidade de erros: " + qtdErros + "\n\n");
+
+                Console.Write("Digite uma letra: ");
+                letra = Console.ReadLine().ToUpper();
+
+                if (!palavraSorteada.Contains(letra))
+                {
+                    qtdErros++;
+                } else
+                {
+                    //...
+                    int indice;
+                    string palavraTrabalho = palavraSorteada;
+                    do
+                    {
+                        indice = palavraTrabalho.IndexOf(letra);
+                        if (indice == -1) break;
+                        palavra = palavra.Insert(indice, letra);
+                        palavra = palavra.Remove(indice + 1, 1);//apaga um 0 depois da inserção
+                        palavraTrabalho = palavraTrabalho.Remove(indice,1);
+                    } while (true);
+                }
+            } while (qtdErros != palavraSorteada.Length && !palavra.Equals(palavraSorteada));
+
+            return qtdErros;
+        }
     }
 }
