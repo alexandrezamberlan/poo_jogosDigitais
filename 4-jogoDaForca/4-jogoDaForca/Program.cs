@@ -42,13 +42,12 @@ namespace _4_jogoDaForca
                         }
                         
                         Util.mostrarPalavras(listaPalavras);
-                        Util.limparTela();
                         break;
                     case 2:
-                        Console.WriteLine("Escolher categoria");
                         //Selecionar a categoria
                         if (listaCategorias.Count > 0)
                         {
+                            Console.WriteLine("Escolher categoria");
                             Util.mostrarCategorias(listaCategorias);
 
                             int indiceCategoria;
@@ -64,7 +63,6 @@ namespace _4_jogoDaForca
                         {
                             Console.WriteLine("Primeiro é preciso carregar a lista de palavras");
                         }
-                        Util.limparTela();
                         break;
                     case 3:
                         if (categoriaEmJogo.Equals(""))
@@ -72,15 +70,24 @@ namespace _4_jogoDaForca
                             Console.WriteLine("Você precisa carregar o arquivo de palavras e depois escolher a categoria");
                         } else
                         {
+                            //cadastrar/buscar jogador
                             Console.WriteLine("Jogo da forca para palavras da categoria: " + categoriaEmJogo);
                             string palavraSorteada = Util.sortearPalavra(listaPalavras,categoriaEmJogo);
-                            int pontos = Util.jogar(palavraSorteada);
+                            int qtdErros = Util.jogar(palavraSorteada);
+
+                            //atualizar a pontuação do jogador
+                            Console.WriteLine("Sua quantidade de erros foi: " + qtdErros);
                         }
-                        Util.limparTela();
+                        break;
+                    case 4:
+                        break;
+                    case 5:
                         break;
                     default:
+                        Console.WriteLine("Opção inválida!!");
                         break;
                 }
+                Util.limparTela();
 
             } while (opcao != 5);
         }
