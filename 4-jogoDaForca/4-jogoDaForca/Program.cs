@@ -66,6 +66,29 @@ namespace _4_jogoDaForca
                         }
                         Util.limparTela();
                         break;
+                    case 3:
+                        if (categoriaEmJogo.Equals(""))
+                        {
+                            Console.WriteLine("Você precisa carregar o arquivo de palavras e depois escolher a categoria");
+                        } else
+                        {
+                            Console.WriteLine("Jogo da forca para palavras da categoria: " + categoriaEmJogo);
+                            string palavraSorteada = Util.sortearPalavra(listaPalavras,categoriaEmJogo);
+                            Console.Write("\n\nA palavra sorteada: ");
+
+                            for (int i = 0; i < palavraSorteada.Length; i++)
+                            {
+                                Console.Write("_ ");
+                            }
+                            Console.WriteLine("\n");
+
+                            //processo do jogo
+                            char caracter;
+
+
+                        }
+                        Util.limparTela();
+                        break;
                     default:
                         break;
                 }
@@ -83,6 +106,6 @@ namespace _4_jogoDaForca
         static List<Palavra> listaPalavras = new List<Palavra>();
         static List<Jogador> listaJogadores = new List<Jogador>();
         static List<string> listaCategorias = new List<string>();
-        static string categoriaEmJogo;
+        static string categoriaEmJogo = "";
     }
 }

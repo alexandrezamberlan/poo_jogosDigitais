@@ -119,6 +119,24 @@ namespace _4_jogoDaForca
             Console.WriteLine("___________________________________________");
         }
 
+        static public string sortearPalavra(List<Palavra> lista, string categoria)
+        {
+            List<string> listaPalavrasParaSorteio = new List<string>();
+            
+
+            for (int i = 0; i < lista.Count; i++)
+            {
+                if (lista[i].categoria.Equals(categoria))
+                {
+                    listaPalavrasParaSorteio.Add(lista[i].texto);
+                }
+            }
+
+            Random gerador = new Random();
+            int indice = gerador.Next(listaPalavrasParaSorteio.Count);
+            return listaPalavrasParaSorteio[indice];
+        }
+
         static public void limparTela()
         {
             ////declarando uma string com o comando somente para facilitar a visualização
