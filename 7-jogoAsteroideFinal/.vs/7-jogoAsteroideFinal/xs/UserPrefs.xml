@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{FBF6C0BF-E34E-4EC8-8EFC-E3C91DBABEAA}|Default">
+  <MonoDevelop.Ide.ItemProperties.7-jogoAsteroideFinal FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="7-jogoAsteroideFinal/Asteroide.cs">
+    <Files>
+      <File FileName="7-jogoAsteroideFinal/Program.cs" Line="12" Column="49" />
+      <File FileName="7-jogoAsteroideFinal/Asteroide.cs" Line="13" Column="60" />
+      <File FileName="7-jogoAsteroideFinal/Jogador.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="7-jogoAsteroideFinal" expanded="True">
+            <Node name="7-jogoAsteroideFinal" expanded="True">
+              <Node name="Asteroide.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

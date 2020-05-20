@@ -50,7 +50,6 @@ namespace _4_jogoDaForca
             escritor.Close();
         }
 
-
         public static void lerArquivoEmLista(List<Palavra> listaPalavras, List<string> listaCategorias)
         {
             try
@@ -164,7 +163,7 @@ namespace _4_jogoDaForca
 
             do
             {
-                Console.WriteLine(palavraSorteada);
+                //Console.WriteLine(palavraSorteada);
                 Console.Write("A palavra sorteada: " + palavra + "\n");
                 Console.Write("Quantidade de erros: " + qtdErros + "\n\n");
 

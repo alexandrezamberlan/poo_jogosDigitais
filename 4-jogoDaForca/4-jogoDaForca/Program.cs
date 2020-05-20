@@ -50,15 +50,23 @@ namespace _4_jogoDaForca
                             Console.WriteLine("Escolher categoria");
                             Util.mostrarCategorias(listaCategorias);
 
-                            int indiceCategoria;
-                            do
+                            try
                             {
-                                Console.Write("\n\nDigite o número da categoria: ");
-                                indiceCategoria = Int32.Parse(Console.ReadLine());
-                            } while (indiceCategoria < 0 || indiceCategoria >= listaCategorias.Count);
+                                int indiceCategoria;
+                                do
+                                {
+                                    Console.Write("\n\nDigite o número da categoria: ");
+                                    indiceCategoria = Int32.Parse(Console.ReadLine());
+                                } while (indiceCategoria < 0 || indiceCategoria >= listaCategorias.Count);
 
-                            categoriaEmJogo = listaCategorias[indiceCategoria];
-                            Console.WriteLine("OK... Você selecionou a categoria: " + categoriaEmJogo);
+                                categoriaEmJogo = listaCategorias[indiceCategoria];
+                                Console.WriteLine("OK... Você selecionou a categoria: " + categoriaEmJogo);
+
+                            } 
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("Fique atento, digite o código da categoria");
+                            }
                         } else
                         {
                             Console.WriteLine("Primeiro é preciso carregar a lista de palavras");
@@ -98,7 +106,6 @@ namespace _4_jogoDaForca
         }
 
         //variáveis globais de acesso a qualquer metodo
-
         static List<Palavra> listaPalavras = new List<Palavra>();
         static List<Jogador> listaJogadores = new List<Jogador>();
         static List<string> listaCategorias = new List<string>();
