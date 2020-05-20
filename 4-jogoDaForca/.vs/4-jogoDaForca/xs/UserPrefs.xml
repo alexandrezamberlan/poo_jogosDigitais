@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{CB062BD9-B52A-4045-85E6-F0353EC6519E}|Default">
   <MonoDevelop.Ide.ItemProperties.4-jogoDaForca PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="4-jogoDaForca/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="4-jogoDaForca/Util.cs">
     <Files>
-      <File FileName="4-jogoDaForca/Program.cs" Line="68" Column="95" />
-      <File FileName="4-jogoDaForca/Palavra.cs" Line="6" Column="10" />
-      <File FileName="4-jogoDaForca/Jogador.cs" Line="14" Column="6" />
-      <File FileName="4-jogoDaForca/Util.cs" Line="166" Column="19" />
+      <File FileName="4-jogoDaForca/Program.cs" Line="84" Column="85" />
+      <File FileName="4-jogoDaForca/Util.cs" Line="170" Column="45" />
+      <File FileName="4-jogoDaForca/Jogador.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="4-jogoDaForca" expanded="True">
             <Node name="4-jogoDaForca" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Util.cs" selected="True" />
             </Node>
           </Node>
         </State>

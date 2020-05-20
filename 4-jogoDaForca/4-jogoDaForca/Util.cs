@@ -149,7 +149,7 @@ namespace _4_jogoDaForca
 
         }
 
-        static public int jogar(string palavraSorteada)
+        static public int jogar(string palavraSorteada, List<Jogador> listaJogadores)
         {
             int qtdErros = 0;
             string letra;
@@ -160,10 +160,23 @@ namespace _4_jogoDaForca
             {
                 palavra = palavra + "0";
             }
+            String nomeJogador;
+            Console.Write("Nome Jogador: ");
+            nomeJogador = Console.ReadLine();
+            Jogador jogador = new Jogador(nomeJogador);
+
+            if (!listaJogadores.Contains(jogador))
+            {
+                listaJogadores.Add(jogador);
+            }
+
+            int posicao = listaJogadores.IndexOf(jogador);
+            Console.WriteLine("Olá " + listaJogadores[posicao].nome + "! Você tem " +
+                listaJogadores[posicao].pontuacao + " erros até o momento!");
 
             do
             {
-                //Console.WriteLine(palavraSorteada);
+                Console.WriteLine(palavraSorteada);
                 Console.Write("A palavra sorteada: " + palavra + "\n");
                 Console.Write("Quantidade de erros: " + qtdErros + "\n\n");
 
@@ -173,6 +186,7 @@ namespace _4_jogoDaForca
                 if (!palavraSorteada.Contains(letra))
                 {
                     qtdErros++;
+                    listaJogadores[posicao].pontuacao = qtdErros;
                 } else
                 {
                     //...
@@ -184,7 +198,8 @@ namespace _4_jogoDaForca
                         if (indice == -1) break;
                         palavra = palavra.Insert(indice, letra);
                         palavra = palavra.Remove(indice + 1, 1);//apaga um 0 depois da inserção
-                        palavraTrabalho = palavraTrabalho.Remove(indice,1);
+                        palavraTrabalho = palavraTrabalho.Insert(indice,"@");
+                        palavraTrabalho = palavraTrabalho.Remove(indice + 1,1);
                     } while (true);
                 }
             } while (qtdErros != palavraSorteada.Length && !palavra.Equals(palavraSorteada));

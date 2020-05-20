@@ -11,5 +11,11 @@ namespace _4_jogoDaForca
             this.nome = nome.ToUpper();
             this.pontuacao = 0;
         }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Jogador jogador &&
+                   nome == jogador.nome;
+        }
     }
 }

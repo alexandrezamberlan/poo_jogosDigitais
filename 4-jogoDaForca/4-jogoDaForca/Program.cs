@@ -81,7 +81,7 @@ namespace _4_jogoDaForca
                             //cadastrar/buscar jogador
                             Console.WriteLine("Jogo da forca para palavras da categoria: " + categoriaEmJogo);
                             string palavraSorteada = Util.sortearPalavra(listaPalavras,categoriaEmJogo);
-                            int qtdErros = Util.jogar(palavraSorteada);
+                            int qtdErros = Util.jogar(palavraSorteada,listaJogadores);
 
                             //atualizar a pontuação do jogador
                             Console.WriteLine("Sua quantidade de erros foi: " + qtdErros);

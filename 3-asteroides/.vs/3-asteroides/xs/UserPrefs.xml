@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{CF37897A-7B08-4717-9C69-705485F277CD}|Default">
   <MonoDevelop.Ide.ItemProperties.3-asteroides PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Asteroide.cs">
     <Files>
       <File FileName="Program.cs" Line="52" Column="5" />
-      <File FileName="Pessoa.cs" Line="6" Column="28" />
-      <File FileName="Professor.cs" Line="12" Column="34" />
+      <File FileName="Pessoa.cs" />
+      <File FileName="Professor.cs" />
+      <File FileName="Asteroide.cs" Line="1" Column="1" />
+      <File FileName="Asteroide.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="3-asteroides" expanded="True">
             <Node name="3-asteroides" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Asteroide.cs" selected="True" />
             </Node>
           </Node>
         </State>
