@@ -10,7 +10,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            //comentário.... para fundamentos de eng. sw
+            //comentário.... para fundamentos de eng. sw    
             int dimensao;
 
             Console.Write("Informe a dimensão da matriz: ");
