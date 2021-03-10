@@ -12,6 +12,7 @@ namespace ThreadConsole
         {
             Thread t = new Thread( () => {
                 Console.WriteLine("Thread secundaria");
+                //..
             });
             t.Start();
             Console.WriteLine("Thread principal");

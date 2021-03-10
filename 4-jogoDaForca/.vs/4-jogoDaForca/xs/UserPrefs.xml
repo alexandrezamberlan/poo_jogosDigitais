@@ -4,7 +4,7 @@
     <Files>
       <File FileName="4-jogoDaForca/Program.cs" Line="84" Column="85" />
       <File FileName="4-jogoDaForca/Util.cs" Line="175" Column="50" />
-      <File FileName="4-jogoDaForca/Jogador.cs" Line="19" Column="10" />
+      <File FileName="4-jogoDaForca/Jogador.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

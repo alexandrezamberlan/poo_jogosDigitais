@@ -1,0 +1,6 @@
+Aulas divididas em 2 momentos:
+    - revisão + teoria
+    - prática de programação
+        códigos
+        trabalhar com o github
+        configurar ferramentas de programação

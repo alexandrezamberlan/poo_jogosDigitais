@@ -1,0 +1,55 @@
+Sistema
+    - o que é: conjunto de partes interrelacionados ou dependência
+    - para que serve: para resolver algum problema/tarefa/atividade
+
+    É composto por aspectos:
+        - ESTRUTURAIS: propriedades, variáveis, atributos (OO)
+            Exemplo no PacMan: 
+                cor do pacman; quantidade de fantasmas, pontuação, ..
+        - FUNCIONAIS: comportamento, funções, métodos (OO)
+            Exemplo no PacMan:
+                movimentar; comer; morrer; renascer; 
+
+
+        Aspectos estruturais são coordenados/alterados/manipulados por
+        aspectos funcionais
+
+
+        Um sistema é uma coleção de OBJETOS e suas relações
+            - Objetos também têm aspectos estruturais e funcionais
+            - Objeto também é um sistema
+
+        Jogo do pacman
+            - Objetos (tratamento de colisão; posição; ...):
+                pacman (protagonista)
+                    atributos: velocidade; cor; status
+                    métodos: movimentar (e, d, b, c); comer;
+                    1 Classe para 1 objeto
+                fantasma(s)
+                    atributos: velocidade; cor; status
+                    métodos: movimentar (e, d, b, c); perseguir; fugir
+                    1 Classe para n objetos
+                frutas(s)
+                    atributos: cor; visibilidade; pontos
+                    métodos: reposicionar; alterarCor;
+                    1 Classe para n objetos
+                labirinto(s) (n paredes)
+                    atributos: número de linhas; número de colunas; 
+                               número de obstáculos
+                    métodos: desenhar obstáculos
+                    1 Classe para n objetos
+                portal(is)
+                    atributos: número de saídas
+                    métodos: desenhar portais;
+                    1 Classe para n objetos
+
+Quando se tem 1 Classe que produz n objetos (atributos/métodos) tem-se
+ORIENTAÇÃO A OBJETOS.
+
+
+objetoProfessor dispara fazerChamada
+objetoAluno é atividado (evento ativador) pelo fazerChamada 
+e dispara responderChamada
+
+Na orientação a objetos há também a orientação a eventos
+Eventos ativadores (triggers ou gatilhos) de métodos de objetos

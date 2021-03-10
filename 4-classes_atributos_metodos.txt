@@ -1,0 +1,127 @@
+Vamos imaginar um jogo online, multiplayer (apelido do jogador, email do jogador, imagem da foto, pontuação,
+quantidade de jogos já realizados). O universo é de batalhas de xadrez em que um jogador pode jogar com outro jogador
+naquele instante, em que a batalha são guardados data, dia, jogadores e o vencedor. Um jogador por realizar n batalhas
+com n jogadores.
+Dado este contexto, vamos modelar a estrutura Orientada a Objetos deste futuro sistema.
+
+Classe
+    Objetos/Instâncias/Exemplos/Ocorrências:
+     atributos
+     métodos
+
+Classes de Objetos
+    - Jogador 
+        atributos: apelido, email, imagem/foto, pontuação, quantidade de jogos, quantidade de vitorias, quantidade de derrotas,
+                   quantidade de empates
+        métodos: trocar apelido; trocar imagem/foto; visualiza desempenho
+
+    - Batalha
+        atributos: jogador1, jogador2, data, hora, duração, resultado
+        métodos: sortear jogador para peças brancas; capturar data e hora; calcular duração; definir resultado;
+    
+    - Ranking
+        atributos: lista de jogadores com dados de pontuação, número de jogos, número de vitórias, derrotas e empates
+        métodos: atualizar ranking; exibir ranking
+
+
+NA LINGUAGEM DE PROGRAMAÇÃO C#. Em geral, cada classe deve ser salva em um arquivo com o seu nome.
+//Jogador.cs
+public class Jogador {
+    String apelido; //além de ser um atributo, é um objeto, pois é do tipo de uma classe
+    String email;
+    Image foto;
+    int pontuacao;
+    int quantidadeJogos;
+    int quantidadeVitorias;
+    int quantidadeDerrotas;
+    int quantidadeEmpates
+
+    //getters
+
+    //setters
+
+    void trocarApelido(String novoApelido) {
+        this.apelido = novoApelido;
+    }
+
+    void trocarImagem(Image novaImagem) {
+        this.foto = novaImagem;
+    }
+
+    void visualizarDesempenho() {
+        //...
+    }
+
+}
+
+//Batalha.cs
+public class Batalha {
+    Jogador jogador1; //além de ser um atributo, é um objeto, pois é do tipo de uma classe
+    Jogador jogador2;
+    Date dataHora;
+    int duracao; //guardar em minutos
+    String resultado; //Jogador 1 venceu ou Jogador 2 Venceu ou Empate
+
+    //getters
+
+    //setters
+
+    Jogador sortearInicio() {
+        //...
+    }
+
+    Date pegaDataHora() {
+        //...
+    }
+
+    void calcularDuracao() {
+        this.duracao = // ... ;
+    }
+}
+
+//Ranking.cs
+Public class Rankink {
+    List<Jogador> listaJogadores;
+
+    void atualizarRanking() {
+        //...
+    }
+
+    void exibirRanking() {
+        //...
+    }
+
+}
+
+
+Vamos imaginar um sistema de gestão de produção de jogos. O sistema deve controlar os jogos produzidos/implementados (título, tipo,
+censura, requisitos básicos), o gerente responsável pelo jogo, quais imagens o jogo utiliza, quais efeitos sonoros o jogo utiliza. Quem
+foi o artista/designer que criou a imagem, se a imagem foi ou não comprada. O mesmo acontece para o efeito sonoro, quem foi o artista ou
+sonoplasta que criou o efeito sonoro, se foi ou não comprado. Todo jogo também tem uma equipe (programador, game designer, roterista,
+sonoplasta).
+
+Classes de Objetos:
+    Jogo
+        atributos: título, gênero, censura, requisitos de hardware, gerente (tipo Funcionário), equipe (do tipo equipe), 
+        lista de imagens (do tipo Imagem), lista de efeitos sonoros (do tipo Efeito Sonoro)
+
+        métodos: no mínimo os métodos getters (ler ou pegar o valor de um atributo) e setters (escrever ou gravar um valor
+        em um atributo); mostrar equipe; mostrar imagens; tocar áudios
+
+    Funcionario
+        atributos: nome, email, função, categoria (junior, senior, pleno)
+        métodos: no mínimo os getters e setters; 
+
+    Imagem
+        atributos: identficação, tipo, tamanho, dimensao, categoria (cenário, personagem, ...), autor (do tipo Funcionário), 
+                   proprietário
+        métodos: no mínimo os getters e setters; 
+
+    Efeito Sonoro
+        atributos: identificação, tipo, tamanho, duração, categoria (cenário, personagem, ...), autor (tipo Funcionário),
+                  proprietário, gênero sonoro (comédia, terror, suspense, ação, ficção, ...)
+        métodos: no mínimo os getters e setters; 
+
+    Equipe  
+        atributos: identificação, descrição, localização, lista de integrantes (do tipo Funcionário), status (ativa ou inativa)
+        métodos: no mínimo os getters e setters; modificar status; alterar lista de integrantes

@@ -13,9 +13,12 @@ namespace ThreadConsole
         private static Object locker = new Object();
 
         private static void Executa(){
-            for (int i = 0; i < 10000; i++){
+            for (int i = 0; i < 100; i++){
                 lock (locker)   // garante o sincronismo ao acessar a variavel compartilhada
                 {
+                    Console.Write("Thread: " + Thread.GetCurrentProcessorId().ToString() + ": ");
+                    Console.WriteLine("Acessando memória compartilhada: " + x);
+                    // Thread.Sleep(1000);
                     x = x + 1;
                 }
             }
@@ -34,6 +37,5 @@ namespace ThreadConsole
 
             Console.WriteLine("Valor x=" + x);
         }
-
     }
 }

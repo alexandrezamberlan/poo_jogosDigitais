@@ -11,10 +11,13 @@ namespace ThreadSimples
             // O construtor da classe Thread exige ThreadStart delegado (delegate)
             // que representa o método que será executado na Thread
             // C# simplifica a criação deste delegate.
+
             Thread t = new Thread(new ThreadStart(ThreadExemplo.ProcessoThread));
 
             // ProcessoThread representado por t é iniciado
             t.Start();
+
+            // ThreadExemplo.ProcessoThread();
 
             for (int i = 0; i < 4; i++)
             {
