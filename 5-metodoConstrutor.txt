@@ -1,0 +1,45 @@
+Toda a classe que quiser gerar objetos/instâncias precisa de método construtor.
+
+    1) um método construtor está associado a palavra new (alocação de memória para um objeto)
+    2) pode-se ter VÁRIOS métodos construtores, cada um criando um objeto de forma única
+    3) DEVE ter o mesmo nome da classe 
+
+
+    public class Jogador 
+    {
+        public String nome;
+        public int pontuacao;
+
+        //construtor vazio
+        public Jogador() 
+        {
+            
+        }
+
+        //construtor que inicializa as duas variáveis
+        public Jogador(String nome, int pontuacao)
+        {
+            this.nome = nome;
+            this.pontuacao = pontuacao
+        }
+
+        //construtor que inicializa nome e a pontuacao com zero
+        public Jogador(String nome)
+        {
+            this.nome = nome;
+            this.pontuacao = 0;
+        }
+
+    }
+
+    public class programador
+    {
+        public static void Main() 
+        {
+            Jogador um = new Jogador(); //construir um objeto do tipo jogador sem nenhum valor nos seus atributos
+        
+            Jogador dois = new Jogador("Carlos", 1000);
+
+            Jogador tres = new Jogador("Daini");
+        }
+    }

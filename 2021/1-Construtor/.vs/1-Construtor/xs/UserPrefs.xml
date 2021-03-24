@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{CBEE2C48-F94E-4BE1-8BF1-A68B04D74F26}|Default">
+  <MonoDevelop.Ide.ItemProperties.1-Construtor PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="1-Construtor/Program.cs">
+    <Files>
+      <File FileName="1-Construtor/Program.cs" Line="33" Column="64" />
+      <File FileName="1-Construtor/Revisao.cs" Line="76" Column="66" />
+      <File FileName="1-Construtor/Jogador.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="1-Construtor" expanded="True">
+            <Node name="1-Construtor" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
