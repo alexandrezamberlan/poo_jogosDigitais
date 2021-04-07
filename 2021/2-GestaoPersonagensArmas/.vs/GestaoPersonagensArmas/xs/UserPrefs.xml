@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{0EC00A4A-E206-4529-9126-1E1FC1CEB05C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GestaoPersonagensArmas/Program.cs">
+    <Files>
+      <File FileName="GestaoPersonagensArmas/Program.cs" Line="162" Column="30" />
+      <File FileName="GestaoPersonagensArmas/Arma.cs" Line="21" Column="37" />
+      <File FileName="GestaoPersonagensArmas/Personagem.cs" Line="25" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GestaoPersonagensArmas" expanded="True">
+            <Node name="GestaoPersonagensArmas" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GestaoPersonagensArmas PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

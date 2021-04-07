@@ -1,0 +1,26 @@
+Vamos projetar e implementar 2 classes bases:
+
+PERSONAGEM 0..n ----- 0..n ARMA
+
+
+1) Personagem (codigo, descricao, nome, lista de armas ou inventário, health points)
+
+2) Arma (codigo, descricao, nome, poderDestruicao)
+
+Vamos projetar e implementar um classe Principal para a gestão de Personagens e armas
+Programa em console que vai ter o seguinte MENU
+
+MENU
+1 - cadastrar arma
+2 - listar armas
+3 - pesquisar por armas
+4 - cadastrar personagem
+5 - listar personagens
+6 - adicionar armas a um personagem
+7 - sair
+
+
+Observações:
+Orientação a Objetos gera organização no código/sistema e se bem executada/implementada gera possibilidade
+de REUSO.
+

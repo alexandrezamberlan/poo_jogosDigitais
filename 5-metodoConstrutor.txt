@@ -30,6 +30,8 @@ Toda a classe que quiser gerar objetos/instâncias precisa de método construtor
             this.pontuacao = 0;
         }
 
+        //observe que o construtor Jogador() foi sobrecarregado 3 vezes
+
     }
 
     public class programador
