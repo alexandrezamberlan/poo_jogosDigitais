@@ -31,6 +31,7 @@ Classes que iremos criar:
 		Jogador()
 
 Classes prontas que vamos utilizar:
+	Int32
 	String
 	List
 	Console

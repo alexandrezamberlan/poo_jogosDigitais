@@ -1,12 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Perguntas_Respostas
 {
     class Program
     {
-        static void menu()
+        static void mostrarAreas(List<Area> listaDeAreas)
         {
-            
+            for (int i = 0; i < listaDeAreas.Count; i++)
+            {
+                Console.WriteLine("Codigo da área   : " + listaDeAreas[i].codigo);
+                Console.WriteLine("Descrição da área: " + listaDeAreas[i].descricao);
+                Console.WriteLine("---------------------------------------------------"); 
+            }
+
+        }
+
+        static void menu(List<Area> listaDeAreas, List<PerguntaResposta> listaDePerguntasRespostas)
+        {
             String opcao;
             char tecla;
 
@@ -25,10 +36,14 @@ namespace Perguntas_Respostas
                 switch (opcao)
                 {
                     case "1":
-                        Console.WriteLine("Carregando arquivo");
+                        Console.WriteLine("Carregando arquivos");
+                        Util.carregandoArquivos(listaDeAreas, listaDePerguntasRespostas);
+                        Program.mostrarAreas(listaDeAreas);
+                        //Program.mostrarPerguntasRespostas(listaDePerguntasRespostas);
                         break;
                     case "2":
                         Console.WriteLine("Cadastrar pergunta-resposta");
+
                         break;
                     case "3":
                         Console.WriteLine("Cadastrar área");
@@ -51,7 +66,10 @@ namespace Perguntas_Respostas
 
         static void Main(string[] args)
         {
-            Program.menu();
+            List<Area> listaDeAreas = new List<Area>();
+            List<PerguntaResposta> listaDePerguntasRespostas = new List<PerguntaResposta>();
+
+            Program.menu(listaDeAreas, listaDePerguntasRespostas);
         }
     }
 }
