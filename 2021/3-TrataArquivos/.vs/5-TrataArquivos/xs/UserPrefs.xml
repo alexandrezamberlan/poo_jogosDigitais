@@ -1,27 +1,19 @@
-﻿<Properties StartupConfiguration="{4E704DEA-839D-40A7-B7EC-71F1DCF410CB}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{4E704DEA-839D-40A7-B7EC-71F1DCF410CB}|Default">
   <MonoDevelop.Ide.ItemProperties.5-TrataArquivos PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="5-TrataArquivos/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="5-TrataArquivos/nomes.txt">
     <Files>
       <File FileName="5-TrataArquivos/Palavra.cs" Line="2" Column="13" />
       <File FileName="5-TrataArquivos/Program.cs" Line="44" Column="9" />
-      <File FileName="5-TrataArquivos/Util.cs" Line="159" Column="1" />
-      <File FileName="5-TrataArquivos/Aluno.cs" Line="11" Column="22" />
+      <File FileName="5-TrataArquivos/Util.cs" />
+      <File FileName="5-TrataArquivos/Aluno.cs" />
+      <File FileName="5-TrataArquivos/nomes.txt" Line="5" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="5-TrataArquivos" expanded="True">
             <Node name="5-TrataArquivos" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="5-TrataArquivos" expanded="True">
-            <Node name="5-TrataArquivos" expanded="True">
-              <Node name="_5_TrataArquivos" expanded="True" />
+              <Node name="nomes.txt" selected="True" />
             </Node>
           </Node>
         </State>

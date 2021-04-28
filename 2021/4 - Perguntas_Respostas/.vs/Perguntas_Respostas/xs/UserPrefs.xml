@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C60B6667-0B7A-429A-BD25-935126C9C479}|Default">
+  <MonoDevelop.Ide.ItemProperties.Perguntas__Respostas FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Perguntas_Respostas" expanded="True">
+            <Node name="Perguntas_Respostas" expanded="True">
+              <Node name="PerguntaResposta.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Perguntas_Respostas" expanded="True">
+            <Node name="Perguntas_Respostas" expanded="True">
+              <Node name="Perguntas_Respostas" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
