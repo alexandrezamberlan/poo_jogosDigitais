@@ -202,8 +202,5 @@ namespace _5_TrataArquivos
                 lerArquivoAlunosEmLista();
             }
         }
-
-
-
     }
 }

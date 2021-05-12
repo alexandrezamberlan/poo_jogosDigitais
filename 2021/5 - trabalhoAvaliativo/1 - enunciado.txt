@@ -1,0 +1,27 @@
+Suponha um processo de gestão de áudios para jogos digitais. 
+
+Todo áudio produzido precisa ter:
+1) uma descrição ou título
+2) autor ou autores do áudio
+3) categoria do áudio, ou seja, música, fala, som de ambiente, som de personagem, etc.
+
+Todo autor que produz algum tipo de áudio também precisa ter:
+1) um nome
+2) um email
+3) uma instituição a qual trabalha
+
+Uma instituição, seja um empresa, seja um instituto, precisa também possuir alguns atributos:
+1) descrição ou nome fantasia
+2) cnpj
+3) email de contato
+
+A partir dessas classes, crie um programa em C# que um usuário possa gerenciar:
+1) Instituição - cadastrar, remover e listar
+2) Autor - cadastrar, remover e listar
+3) Áudios - cadastrar, remover e listar
+
+Para isso, sugere-se o uso de um menu, em que o usuário possa aplicar/executar as gestões.
+
+Dicas: 
+1) usar Lists para armazenar Instituicao, Autor e Audio;
+2) caso alguém for utilizar arquivos, lembre de utilizar as classes de leitura (StreamReader) e escrita (StreamWriter)

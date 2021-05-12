@@ -7,6 +7,23 @@ namespace Perguntas_Respostas
 {
     public class Util
     {
+        public static void atualizandoArquivoAreas(List<Area> listaDeAreas)
+        {
+            //abrir novamente o arquivo de origem agora para escrever (sobreescrever)
+            StreamWriter escritor = new StreamWriter("areas.dad"); //abre o arquivo para escrita
+
+            //depositar/escrever o conteúdo da lista ou da variável no arquivo de origem reaberto
+            for (int i = 0; i < listaDeAreas.Count; i++)
+            {
+                escritor.WriteLine(listaDeAreas[i].codigo + "@" + listaDeAreas[i].descricao);
+                escritor.Flush();
+            }
+
+            //fechar o arquivo de origem
+            escritor.Close();
+
+        }
+
         public static void carregandoArquivos(List<Area> listaDeAreas, List<PerguntaResposta> listaDePerguntasRespostas)
         {
             //areas.dad - arquivo contendo as áreas
@@ -17,7 +34,7 @@ namespace Perguntas_Respostas
             //    Console.WriteLine("Arquivo de áreas não localizado!");
             //} 
 
-            //primeira repetição pega todas as frases do arquivo lido e jogo na lista frasesLidas
+            //primeira repetição pega todas as frases do arquivo lido e joga na lista frasesLidas
             List<string> frasesLidas = new List<string>();
             do
             {
