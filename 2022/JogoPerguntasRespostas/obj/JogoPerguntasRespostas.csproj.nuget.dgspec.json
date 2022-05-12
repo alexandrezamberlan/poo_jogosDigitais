@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laboratorio\\source\\repos\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\JogoPerguntasRespostas.csproj": {}
+    "C:\\Users\\laboratorio\\source\\repos\\alexandrezamberlan\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\JogoPerguntasRespostas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laboratorio\\source\\repos\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\JogoPerguntasRespostas.csproj": {
+    "C:\\Users\\laboratorio\\source\\repos\\alexandrezamberlan\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\JogoPerguntasRespostas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laboratorio\\source\\repos\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\JogoPerguntasRespostas.csproj",
+        "projectUniqueName": "C:\\Users\\laboratorio\\source\\repos\\alexandrezamberlan\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\JogoPerguntasRespostas.csproj",
         "projectName": "JogoPerguntasRespostas",
-        "projectPath": "C:\\Users\\laboratorio\\source\\repos\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\JogoPerguntasRespostas.csproj",
+        "projectPath": "C:\\Users\\laboratorio\\source\\repos\\alexandrezamberlan\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\JogoPerguntasRespostas.csproj",
         "packagesPath": "C:\\Users\\laboratorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laboratorio\\source\\repos\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\obj\\",
+        "outputPath": "C:\\Users\\laboratorio\\source\\repos\\alexandrezamberlan\\poo_jogosDigitais\\2022\\JogoPerguntasRespostas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
