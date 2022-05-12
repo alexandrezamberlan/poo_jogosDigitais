@@ -34,6 +34,8 @@ namespace JogoPerguntasRespostas
             return "Código: " + this.codigo + " - " + "Descrição: " + this.descricao;
         }
 
+
+
         public static int qualPosicao(string categoria, List<Categoria> lista)
         {
             for (int i = 0; i < lista.Count; i++)
@@ -52,7 +54,7 @@ namespace JogoPerguntasRespostas
             Console.Write("Categorias cadastradas: ");
             for (int i = 0; i < lista.Count; i++)
             {
-                Console.Write(lista[i].Descricao + ",");
+                Console.Write(lista[i].Descricao + ", ");
             }
             Console.WriteLine();
         }

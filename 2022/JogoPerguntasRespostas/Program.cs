@@ -8,6 +8,51 @@ namespace JogoPerguntasRespostas
         static List<Categoria> listaCategorias = new List<Categoria>();
         static List<Nivel> listaNiveis = new List<Nivel>();
 
+        static bool verificarSeExiste(List<Categoria> lista, string expressao)
+        {
+            for (int i = 0; i < lista.Count; i++)
+            {
+                if (lista[i].Descricao.Equals(expressao)) return true;
+            }
+            return false;
+        }
+
+
+        static void cadastrarCategoria()
+        {
+            string categoria;
+            Console.Write("Categoria: ");
+            categoria = Console.ReadLine();
+
+            if (verificarSeExiste(listaCategorias, categoria))
+            {
+                Console.WriteLine("Categoria já cadastrada");
+                return;
+            }
+
+            int codigo = 0;
+            Console.Write("Código para categoria: ");
+            codigo = int.Parse( Console.ReadLine() );
+
+            string sigla = "";
+            Console.Write("Sigla para categoria: ");
+            sigla = Console.ReadLine();
+
+            listaCategorias.Add( new Categoria(categoria,codigo,sigla) );
+
+            //gravarNoArquivo(listaCategorias);
+        }
+
+        static void exibirListaCategorias()
+        {
+            if (listaCategorias.Count == 0)
+            {
+                Console.WriteLine("Lista vazia... nada para exibir!");
+                return;
+            }
+            Categoria.mostrar(listaCategorias);
+        }
+
         static void menu()
         {
             string opcao = "";
@@ -30,6 +75,7 @@ namespace JogoPerguntasRespostas
                     case "2":
                         Console.WriteLine("Menu listar categorias");
                         //codigo para exibir lista com os dados do arquivo de categoria
+                        exibirListaCategorias();
                         break;
                     case "3":
                         Console.WriteLine("Menu listar níveis");
@@ -38,6 +84,7 @@ namespace JogoPerguntasRespostas
                     case "4":
                         Console.WriteLine("Menu cadastrar nova categoria");
                         //codigo para cadastrar nova categoria, tanto na lista quanto no arquivo (persistir)
+                        cadastrarCategoria();
                         break;
                     case "5":
                         Console.WriteLine("Menu cadastrar novo nível");
