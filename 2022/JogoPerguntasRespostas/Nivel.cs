@@ -13,7 +13,7 @@ namespace JogoPerguntasRespostas
 
         public Nivel(string descricao, int pontuacao)
         {
-            this.Descricao = descricao;
+            this.Descricao = descricao.ToUpper();
             this.Pontuacao = pontuacao;
         }
 

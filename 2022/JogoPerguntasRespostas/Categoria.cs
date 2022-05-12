@@ -18,9 +18,9 @@ namespace JogoPerguntasRespostas
 
         public Categoria(string descricao, int codigo, string sigla)
         {
-            this.Descricao = descricao;
+            this.Descricao = descricao.ToUpper();
             this.Codigo = codigo;
-            this.Sigla = sigla;
+            this.Sigla = sigla.ToUpper();
         }
 
         public Categoria(string descricao, int codigo)

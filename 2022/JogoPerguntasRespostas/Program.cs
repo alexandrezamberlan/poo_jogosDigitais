@@ -8,7 +8,16 @@ namespace JogoPerguntasRespostas
         static List<Categoria> listaCategorias = new List<Categoria>();
         static List<Nivel> listaNiveis = new List<Nivel>();
 
-        static bool verificarSeExiste(List<Categoria> lista, string expressao)
+        static bool verificarSeExisteCategoria(List<Categoria> lista, string expressao)
+        {
+            for (int i = 0; i < lista.Count; i++)
+            {
+                if (lista[i].Descricao.Equals(expressao)) return true;
+            }
+            return false;
+        }
+
+        static bool verificarSeExisteNivel(List<Nivel> lista, string expressao)
         {
             for (int i = 0; i < lista.Count; i++)
             {
@@ -22,9 +31,9 @@ namespace JogoPerguntasRespostas
         {
             string categoria;
             Console.Write("Categoria: ");
-            categoria = Console.ReadLine();
+            categoria = Console.ReadLine().ToUpper();
 
-            if (verificarSeExiste(listaCategorias, categoria))
+            if (verificarSeExisteCategoria(listaCategorias, categoria))
             {
                 Console.WriteLine("Categoria já cadastrada");
                 return;
@@ -43,6 +52,28 @@ namespace JogoPerguntasRespostas
             //gravarNoArquivo(listaCategorias);
         }
 
+        static void cadastrarNivel()
+        {
+            string descricao;
+            Console.Write("Nível: ");
+            descricao = Console.ReadLine().ToUpper();
+
+            if (verificarSeExisteNivel(listaNiveis, descricao))
+            {
+                Console.WriteLine("Nível já cadastrado");
+                return;
+            }
+
+            int pontuacao = 0;
+            Console.Write("Pontuação para o nível: ");
+            pontuacao = int.Parse(Console.ReadLine());
+                       
+
+            listaNiveis.Add(new Nivel(descricao, pontuacao));
+
+            //gravarNoArquivo(listaNiveis);
+        }
+
         static void exibirListaCategorias()
         {
             if (listaCategorias.Count == 0)
@@ -53,11 +84,22 @@ namespace JogoPerguntasRespostas
             Categoria.mostrar(listaCategorias);
         }
 
+        static void exibirListaNiveis()
+        {
+            if (listaNiveis.Count == 0)
+            {
+                Console.WriteLine("Lista vazia... nada para exibir!");
+                return;
+            }
+            Nivel.mostrar(listaNiveis);
+        }
+
         static void menu()
         {
             string opcao = "";
             do
             {
+                Console.Clear();
                 Console.WriteLine("1 - Carregar arquivos de categorias e níveis");
                 Console.WriteLine("2 - Listar categorias");
                 Console.WriteLine("3 - Listar níveis");
@@ -80,6 +122,7 @@ namespace JogoPerguntasRespostas
                     case "3":
                         Console.WriteLine("Menu listar níveis");
                         //codigo para exibir lista com os dados do arquivo de nível
+                        exibirListaNiveis();
                         break;
                     case "4":
                         Console.WriteLine("Menu cadastrar nova categoria");
@@ -89,6 +132,7 @@ namespace JogoPerguntasRespostas
                     case "5":
                         Console.WriteLine("Menu cadastrar novo nível");
                         //codigo para cadastrar novo nível, tanto na lista quanto no arquivo (persistir)
+                        cadastrarNivel();
                         break;
                     case "8":
                         break;                  
@@ -96,6 +140,7 @@ namespace JogoPerguntasRespostas
                         Console.WriteLine("Opção inválida!");
                         break;
                 }
+                Console.Write("Tecle algo para continuar: "); Console.ReadKey();
 
             } while (opcao != "8");
         }
