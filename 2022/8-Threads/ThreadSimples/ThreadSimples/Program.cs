@@ -13,22 +13,15 @@ namespace ThreadSimples
             // C# simplifica a criação deste delegate.
 
             Thread t = new Thread(new ThreadStart(ThreadExemplo.ProcessoThread));
-
-            // ProcessoThread representado por t é iniciado
             t.Start();
 
-            // ThreadExemplo.ProcessoThread();
+            Thread t2 = new Thread(new ThreadStart(ThreadExemplo.ProcessoThread2));
+            t2.Start();
 
-            for (int i = 0; i < 4; i++)
-            {
-                Console.WriteLine("Thread Principal: fazendo algo....");
-                Thread.Sleep(1000);
-            }
+            Thread t3 = new Thread(new ThreadStart(ThreadExemplo.ProcessoThread3));
+            t3.Start();
 
-            Console.WriteLine("Thread Principal: chama Join(), para esperar que ProcessoThread termine.");
-            t.Join();
-            Console.WriteLine("Thread Principal: ProcessoThread.Join terminou.  Pressione ENTER par terminar programa.");
-            Console.ReadLine();
+            ThreadExemplo.ProcessoThread2();
         }
     }
 
@@ -46,11 +39,27 @@ namespace ThreadSimples
                 Thread.Sleep(1000);
             }
         }
+
+        public static void ProcessoThread2()
+        {
+            string[] nomes = {"joao", "pedro", "marlon", "cesar", "alexandre", "josi"};
+            
+            for (int i = 0; i < nomes.Length; i++)
+            {
+                Console.WriteLine(nomes[i]);
+                // segura alguns milisegundos, dando a fatia do processo a outra thread.
+                Thread.Sleep(1000);
+            }
+        }
+
+        public static void ProcessoThread3() 
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Thread Principal: fazendo algo....");
+                Thread.Sleep(1000);
+            }
+        }
+
     }
 }
-
-
-
-
-
-
